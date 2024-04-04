@@ -20,7 +20,7 @@ const ExperienceCard = ({ experience }) => (
           src={experience.icon}
           alt={experience.company_name}
           className="w-[100%] h-[100%]
-          object-contain bg-white rounded-3xl"
+          object-contain bg-white rounded-full"
         />
       </div>
     }
